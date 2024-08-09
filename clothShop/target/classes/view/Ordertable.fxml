@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="651.0" prefWidth="1559.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.clothshop.controller.OrdertableController">
+   <children>
+      <TableView fx:id="tableview" layoutX="14.0" layoutY="109.0" prefHeight="490.0" prefWidth="1524.0" style="-fx-background-radius: 20px;">
+         <columns>
+            <TableColumn fx:id="orderidcolumn" prefWidth="183.99996662139893" style="-fx-background-radius: 20px;" text="Order Id" />
+            <TableColumn fx:id="customeridcolum" prefWidth="233.6000213623047" style="-fx-background-radius: 20px;" text="Customer Id" />
+            <TableColumn fx:id="orderdatecolumn" prefWidth="212.79998779296875" style="-fx-background-radius: 20px;" text="Order Date" />
+            <TableColumn fx:id="itemcolumn" prefWidth="195.20001220703125" style="-fx-background-radius: 20px;" text="Item" />
+            <TableColumn fx:id="tempricecolumn" prefWidth="170.4000244140625" style="-fx-background-radius: 20px;" text="Item Price" />
+            <TableColumn fx:id="amountcolumn" prefWidth="173.60003662109375" style="-fx-background-radius: 20px;" text="Amount" />
+            <TableColumn fx:id="pricecolumn" prefWidth="177.5999755859375" style="-fx-background-radius: 20px;" text="Price" />
+            <TableColumn fx:id="bonuscolumn" prefWidth="169.60009765625" style="-fx-background-radius: 20px;" text="Bonus" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
